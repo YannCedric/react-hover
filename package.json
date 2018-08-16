@@ -1,11 +1,11 @@
 {
     "name": "react-hover-component",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "",
     "main": "index.js",
     "scripts": {
         "build": "webpack",
-        "prepublish": "webpack ; git push origin master"
+        "prepublish": "webpack ; git commit -a -m 'publish' ; git push origin master"
     },
     "peerDependencies": {
         "prop-types": "^15.6.0",
