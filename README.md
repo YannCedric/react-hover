@@ -22,13 +22,9 @@ import Hover from 'react-hover-component'
                         backgroundColor: 'red',
                         transitionDuration: '1s'}}
                 hover={{width:50}}>
-            
-            <div>
-
-                ...
-            
-            </div>
-            
+                <div>
+                    ...
+                </div>
             </Hover> 
         )
     }
@@ -38,5 +34,5 @@ import Hover from 'react-hover-component'
 
 # Props
 
-* **style** - OBJECT - object with styling properties. (Add the transitionDuration property to make the transition smoother)
+* **style** - OBJECT - object with styling properties. (Add the transitionDuration property to make the transition smoother). **PS** : The styles are applied to the child of the Hover component.
 * **hover** - OBJECT - object with styling properties that will overite those in the base style property. No need to repeat styles declared in the style prop. Just provide the new styles to apply when hovering.
