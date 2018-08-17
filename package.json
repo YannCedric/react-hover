@@ -1,8 +1,9 @@
 {
     "name": "react-hover-component",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "",
     "main": "index.js",
+    "repository":"https://github.com/YannCedric/react-hover",
     "scripts": {
         "build": "webpack",
         "prepublish": "webpack ; git commit -a -m 'publish' ; git push origin master"
@@ -25,6 +26,6 @@
         "webpack": "^4.5.0",
         "webpack-cli": "^2.0.14"
     },
-    "author": "",
-    "license": "ISC"
+    "author": "Yann Cedric Ngadeu",
+    "license": "MIT"
 }
