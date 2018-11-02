@@ -9,19 +9,18 @@ class Hover extends Component {
   }
 
   render() {
-        const {hover, style} = this.props,
+        const { hover, style } = this.props,
             { isHover } = this.state,
             { children } = this.props
 
-        let currentStyle = { ...children.props.style, ...style }
+        let currentStyle = { ...style }
             if (isHover)  currentStyle = { ...currentStyle, ...hover}
 
-        const element = React.cloneElement( children, {style: currentStyle} )
         return (
-        <div style={{width: 0, height:0, backgroundColor: 'red'}}
+        <div style={currentStyle}
             onMouseEnter={event => this.setState({isHover: true})} 
             onMouseLeave={event => this.setState({isHover: false})}>
-            {element}
+            {children}
         </div>
     );
   }
