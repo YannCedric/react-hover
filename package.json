@@ -23,8 +23,8 @@
         "prop-types": "^15.6.0",
         "react": "^16.0.0",
         "react-dom": "^16.0.0",
-        "webpack": "^4.5.0",
-        "webpack-cli": "^2.0.14"
+        "webpack": "^4.20.2",
+        "webpack-cli": "^3.1.1"
     },
     "author": "Yann Cedric Ngadeu",
     "license": "MIT"
